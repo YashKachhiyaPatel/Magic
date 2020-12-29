@@ -103,7 +103,7 @@ yesbtn.addEventListener("click",function(){
 		answer += 16;
 	}else {
 		answer += 32;
-		fanswer.innerHTML = `<h1">That number : <strong>${answer}</strong></h1>
+		fanswer.innerHTML = `<h1>That number : <strong>${answer}</strong></h1>
 		                      <br>`;
 		                    
 		restart.style.display = "inline";
