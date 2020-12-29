@@ -28,6 +28,7 @@ img{
 }
 #head{
 	font-size: 3.8rem;
+         width: 800px;
         align-items: center;
 	margin-bottom: 30px;
 	text-shadow: 1px 1px 5px black;
