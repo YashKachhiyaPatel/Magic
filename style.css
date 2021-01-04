@@ -17,6 +17,20 @@ img{
 	margin-top: -25px;	
 	margin-bottom: 230px;
 }
+.square-group {
+    --xyz-rotate-x: 90deg;
+    --xyz-rotate-z: -180deg;
+    --xyz-origin: -200%;
+    --xyz-stagger: 0.1s;
+    --xyz-duration: 0.75s;
+    --xyz-perspective: 100px;
+    --xyz-translate-z: 100px;
+    --xyz-translate-y: 10vh;
+  }
+  .square-group1 {
+    --xyz-translate-y: -350%;
+    --xyz-ease: cubic-bezier(0.5, -1.5, 0.5, 1.5);
+  }
 .container{
 	margin: 0;
 	width: 1000px;
