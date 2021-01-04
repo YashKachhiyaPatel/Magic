@@ -3,18 +3,19 @@
 <head>
 	<title>Guess</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@animxyz/core@0.3.0/dist/animxyz.min.css">
 </head>
 <body>
   <img src="y.jpg">
-  <div class="container" id="fanswer">
-    <div id="head">
+  <div class="container square-group"  id="fanswer">
+    <div id="head" class="square xyz-in">
        <h2>Think One Number Between 1 to 63</h2>
     </div>
     
   
-    <div class="ptag" id="txt">
-  	  <p>If You see that number press</p>
-      <p> "yes" otherwise "no"</p>
+    <div class="ptag .square-group1" xyz="stagger-2 narrow-100% delay-6" id="txt">
+  	  <p class="square xyz-in">If You see that number press</p>
+      <p class="square xyz-in"> "yes" otherwise "no"</p>
     </div> 
   	<div id="main_list">
   		<span class="list" id="l11"></span>
